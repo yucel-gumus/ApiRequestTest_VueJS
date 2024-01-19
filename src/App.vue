@@ -1,15 +1,14 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <RequestApi msg="Api Request Testine Hoşgeldiniz" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import RequestApi from './components/RequestApi.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RequestApi
   }
 }
 </script>
